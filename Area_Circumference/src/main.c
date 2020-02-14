@@ -4,10 +4,82 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
+
+
+
+int checknumber(char *input, int d)
+{
+	int length, i;
+	int y = 2;
+	int x = 1;
+	if (d == 1)
+	{
+		length = strlen(input);
+		for (i = 0; i < length; i++)
+		{
+			if (!isdigit(input[i]))
+			{
+				if (toascii(46) == input[i])
+				{
+					x++;
+					if (x == 3)
+					{
+						printf("Entered input is not a number\n");
+						printf("Please enter a number\n");
+						x = 1;
+						break;
+					}
+				}
+				else
+				{
+					printf("Entered input is not a number\n");
+					printf("Please enter a number\n");
+					break;
+				}
+			}
+			if (length == (i + 1))
+			{
+				y = 1;
+				//return y;
+			}
+		}
+		return y;
+	}
+	else
+	{
+		length = strlen(input);
+		
+		for (i = 0; i < length; i++)
+		{
+			if (!isdigit(input[i]))
+			{
+				if (toascii(46) == input[i])
+				{
+					x++;
+					if (x == 3)
+					{
+						printf("Entered input is not a number\n");
+						printf("Please enter a number\n");
+						x = 1;
+						exit(1);
+					}
+				}
+				else
+				{
+					printf("Entered input is not a number\n");
+					printf("Please enter a number\n");
+					exit(1);
+				}
+			}
+		}
+	}
+}
+
 int main(int argc, char *argv[])
 {
 
 	float r, a, c;
+	int d;
 	char input[1000] = "";
 	int length, i;
 	int y = 2;
@@ -22,6 +94,8 @@ int main(int argc, char *argv[])
 		while (y == 2)
 		{
 			scanf("%s", input);
+			y = checknumber(input, 1);
+			/*
 			length = strlen(input);
 			for (i = 0; i < length; i++)
 			{
@@ -50,6 +124,7 @@ int main(int argc, char *argv[])
 					y = 1;
 				}
 			}
+			*/
 		}
 		r = atof(input);
 		a = 3.14 * r * r;
@@ -72,6 +147,8 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
+		checknumber(argv[2], 2);
+		/*
 		length = strlen(argv[2]);
 		for (i = 0; i < length; i++)
 		{
@@ -95,11 +172,8 @@ int main(int argc, char *argv[])
 					exit(1);
 				}
 			}
-			if (length == (i + 1))
-			{
-				y = 1;
-			}
 		}
+		*/
 		r = atof(argv[2]);
 		a = 3.14 * r * r;
 		c = 2 * 3.14 * r;
