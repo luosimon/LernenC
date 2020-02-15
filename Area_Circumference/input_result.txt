@@ -1,0 +1,8 @@
+Area = 3.140000
+Circumference = 6.280000
+Area = 4.521600
+Circumference = 7.536000
+Area = 12.560000
+Circumference = 12.560000
+Area = 28.260000
+Circumference = 18.840000
