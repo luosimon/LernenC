@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build",
+  "command": "C:\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe    -g   -o CMakeFiles\\ep.dir\\src\\main.cpp.obj -c C:\\Users\\simon\\Documents\\GitHub\\LernenC\\easypeasy\\src\\main.cpp",
+  "file": "C:/Users/simon/Documents/GitHub/LernenC/easypeasy/src/main.cpp"
+}
+]

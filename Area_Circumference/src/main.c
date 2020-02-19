@@ -116,13 +116,12 @@ int main(int argc, char *argv[])
 		{
 			int bufferLength = 255;
 			char buffer[bufferLength];
-			char data[DATA_SIZE];
 			FILE *fPtr;
-			for ( int ii = 0; ii < 4; ii++)
+			for (int ii = 0; ii < 4; ii++)
 			{
 				result[strlen(result) - 1] = '\0';
 			}
-			
+
 			snprintf(result, sizeof(result), "%s%s", result, "_result.txt");
 			fPtr = fopen(result, "w");
 			if (fPtr == NULL)
@@ -144,7 +143,7 @@ int main(int argc, char *argv[])
 					exit(1);
 				}
 				calc(buffer, &a, &c);
-				printf("%f\n",a);
+				printf("%f\n", a);
 				snprintf(aa, sizeof(aa), "%s%f\n", "Area = ", a);
 				fputs(aa, fPtr);
 				snprintf(cc, sizeof(cc), "%s%f\n", "Circumference = ", c);
@@ -167,6 +166,6 @@ int main(int argc, char *argv[])
 		{
 			exit(1);
 		}
-		//calc(argv[2], a, c);
+		calc(argv[2], &a, &c);
 	}
 }
