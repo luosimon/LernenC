@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\easypeasy.dir/objects.a
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe cr CMakeFiles\easypeasy.dir/objects.a @CMakeFiles\easypeasy.dir\objects1.rsp
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\easypeasy.dir/objects.a -Wl,--no-whole-archive  -o easypeasy.exe -Wl,--out-implib,libeasypeasy.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\easypeasy.dir\linklibs.rsp

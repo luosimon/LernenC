@@ -536,6 +536,99 @@ ContinuousCoverage/fast:
 	$(MAKE) -f CMakeFiles\ContinuousCoverage.dir\build.make CMakeFiles/ContinuousCoverage.dir/build
 .PHONY : ContinuousCoverage/fast
 
+#=============================================================================
+# Target rules for targets named lib
+
+# Build rule for target.
+lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 lib
+.PHONY : lib
+
+# fast build rule for target.
+lib/fast:
+	$(MAKE) -f CMakeFiles\lib.dir\build.make CMakeFiles/lib.dir/build
+.PHONY : lib/fast
+
+#=============================================================================
+# Target rules for targets named tcone
+
+# Build rule for target.
+tcone: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 tcone
+.PHONY : tcone
+
+# fast build rule for target.
+tcone/fast:
+	$(MAKE) -f CMakeFiles\tcone.dir\build.make CMakeFiles/tcone.dir/build
+.PHONY : tcone/fast
+
+#=============================================================================
+# Target rules for targets named lib_factorial
+
+# Build rule for target.
+lib_factorial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 lib_factorial
+.PHONY : lib_factorial
+
+# fast build rule for target.
+lib_factorial/fast:
+	$(MAKE) -f CMakeFiles\lib_factorial.dir\build.make CMakeFiles/lib_factorial.dir/build
+.PHONY : lib_factorial/fast
+
+lib/factorial.obj: lib/factorial.cpp.obj
+
+.PHONY : lib/factorial.obj
+
+# target to build an object file
+lib/factorial.cpp.obj:
+	$(MAKE) -f CMakeFiles\lib_factorial.dir\build.make CMakeFiles/lib_factorial.dir/lib/factorial.cpp.obj
+.PHONY : lib/factorial.cpp.obj
+
+lib/factorial.i: lib/factorial.cpp.i
+
+.PHONY : lib/factorial.i
+
+# target to preprocess a source file
+lib/factorial.cpp.i:
+	$(MAKE) -f CMakeFiles\lib_factorial.dir\build.make CMakeFiles/lib_factorial.dir/lib/factorial.cpp.i
+.PHONY : lib/factorial.cpp.i
+
+lib/factorial.s: lib/factorial.cpp.s
+
+.PHONY : lib/factorial.s
+
+# target to generate assembly for a file
+lib/factorial.cpp.s:
+	$(MAKE) -f CMakeFiles\lib_factorial.dir\build.make CMakeFiles/lib_factorial.dir/lib/factorial.cpp.s
+.PHONY : lib/factorial.cpp.s
+
+lib/util.obj: lib/util.cpp.obj
+
+.PHONY : lib/util.obj
+
+# target to build an object file
+lib/util.cpp.obj:
+	$(MAKE) -f CMakeFiles\lib.dir\build.make CMakeFiles/lib.dir/lib/util.cpp.obj
+.PHONY : lib/util.cpp.obj
+
+lib/util.i: lib/util.cpp.i
+
+.PHONY : lib/util.i
+
+# target to preprocess a source file
+lib/util.cpp.i:
+	$(MAKE) -f CMakeFiles\lib.dir\build.make CMakeFiles/lib.dir/lib/util.cpp.i
+.PHONY : lib/util.cpp.i
+
+lib/util.s: lib/util.cpp.s
+
+.PHONY : lib/util.s
+
+# target to generate assembly for a file
+lib/util.cpp.s:
+	$(MAKE) -f CMakeFiles\lib.dir\build.make CMakeFiles/lib.dir/lib/util.cpp.s
+.PHONY : lib/util.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -562,6 +655,33 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\ep.dir\build.make CMakeFiles/ep.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+test/001_TEST_CASE.obj: test/001_TEST_CASE.cpp.obj
+
+.PHONY : test/001_TEST_CASE.obj
+
+# target to build an object file
+test/001_TEST_CASE.cpp.obj:
+	$(MAKE) -f CMakeFiles\tcone.dir\build.make CMakeFiles/tcone.dir/test/001_TEST_CASE.cpp.obj
+.PHONY : test/001_TEST_CASE.cpp.obj
+
+test/001_TEST_CASE.i: test/001_TEST_CASE.cpp.i
+
+.PHONY : test/001_TEST_CASE.i
+
+# target to preprocess a source file
+test/001_TEST_CASE.cpp.i:
+	$(MAKE) -f CMakeFiles\tcone.dir\build.make CMakeFiles/tcone.dir/test/001_TEST_CASE.cpp.i
+.PHONY : test/001_TEST_CASE.cpp.i
+
+test/001_TEST_CASE.s: test/001_TEST_CASE.cpp.s
+
+.PHONY : test/001_TEST_CASE.s
+
+# target to generate assembly for a file
+test/001_TEST_CASE.cpp.s:
+	$(MAKE) -f CMakeFiles\tcone.dir\build.make CMakeFiles/tcone.dir/test/001_TEST_CASE.cpp.s
+.PHONY : test/001_TEST_CASE.cpp.s
 
 # Help Target
 help:
@@ -603,9 +723,21 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... ep
+	@echo ... lib
+	@echo ... lib_factorial
+	@echo ... tcone
+	@echo ... lib/factorial.obj
+	@echo ... lib/factorial.i
+	@echo ... lib/factorial.s
+	@echo ... lib/util.obj
+	@echo ... lib/util.i
+	@echo ... lib/util.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... test/001_TEST_CASE.obj
+	@echo ... test/001_TEST_CASE.i
+	@echo ... test/001_TEST_CASE.s
 .PHONY : help
 
 

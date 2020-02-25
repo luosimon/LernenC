@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../bin/ep.exe"
+  "../bin/ep.exe.manifest"
+  "../bin/ep.pdb"
   "CMakeFiles/ep.dir/src/main.cpp.obj"
-  "ep.exe"
-  "ep.exe.manifest"
-  "ep.pdb"
   "libep.dll.a"
 )
 

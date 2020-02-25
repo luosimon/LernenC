@@ -1,7 +1,22 @@
 [
 {
   "directory": "C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build",
-  "command": "C:\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe    -g   -o CMakeFiles\\ep.dir\\src\\main.cpp.obj -c C:\\Users\\simon\\Documents\\GitHub\\LernenC\\easypeasy\\src\\main.cpp",
+  "command": "C:\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe   @CMakeFiles/ep.dir/includes_CXX.rsp -g   -o CMakeFiles\\ep.dir\\src\\main.cpp.obj -c C:\\Users\\simon\\Documents\\GitHub\\LernenC\\easypeasy\\src\\main.cpp",
   "file": "C:/Users/simon/Documents/GitHub/LernenC/easypeasy/src/main.cpp"
+},
+{
+  "directory": "C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build",
+  "command": "C:\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe    -g   -o CMakeFiles\\lib.dir\\lib\\util.cpp.obj -c C:\\Users\\simon\\Documents\\GitHub\\LernenC\\easypeasy\\lib\\util.cpp",
+  "file": "C:/Users/simon/Documents/GitHub/LernenC/easypeasy/lib/util.cpp"
+},
+{
+  "directory": "C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build",
+  "command": "C:\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe   @CMakeFiles/tcone.dir/includes_CXX.rsp -g   -o CMakeFiles\\tcone.dir\\test\\001_TEST_CASE.cpp.obj -c C:\\Users\\simon\\Documents\\GitHub\\LernenC\\easypeasy\\test\\001_TEST_CASE.cpp",
+  "file": "C:/Users/simon/Documents/GitHub/LernenC/easypeasy/test/001_TEST_CASE.cpp"
+},
+{
+  "directory": "C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build",
+  "command": "C:\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe    -g   -o CMakeFiles\\lib_factorial.dir\\lib\\factorial.cpp.obj -c C:\\Users\\simon\\Documents\\GitHub\\LernenC\\easypeasy\\lib\\factorial.cpp",
+  "file": "C:/Users/simon/Documents/GitHub/LernenC/easypeasy/lib/factorial.cpp"
 }
 ]

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/simon/Documents/GitHub/LernenC/easypeasy/lib/factorial.cpp
+factorial.hpp
+C:/Users/simon/Documents/GitHub/LernenC/easypeasy/lib/factorial.hpp
+
+C:/Users/simon/Documents/GitHub/LernenC/easypeasy/lib/factorial.hpp
+

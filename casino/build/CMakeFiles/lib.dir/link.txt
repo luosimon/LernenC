@@ -1,0 +1,2 @@
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe qc liblib.a  CMakeFiles/lib.dir/lib/util.cpp.obj
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ranlib.exe liblib.a

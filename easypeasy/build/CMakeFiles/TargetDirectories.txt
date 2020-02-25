@@ -28,6 +28,9 @@ C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build/CMakeFiles/ContinuousBui
 C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build/CMakeFiles/ContinuousTest.dir
 C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build/CMakeFiles/ep.dir
 C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build/CMakeFiles/ContinuousCoverage.dir
+C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build/CMakeFiles/lib.dir
+C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build/CMakeFiles/tcone.dir
+C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build/CMakeFiles/lib_factorial.dir
 C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build/CMakeFiles/package.dir
 C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build/CMakeFiles/test.dir
 C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build/CMakeFiles/edit_cache.dir

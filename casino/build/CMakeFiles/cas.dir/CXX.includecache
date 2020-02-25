@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/util.hpp
+
+C:/Users/simon/Documents/GitHub/LernenC/casino/src/main.cpp
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+ctype.h
+-
+unistd.h
+-
+limits.h
+-
+iostream
+-
+stdbool.h
+-
+util.hpp
+C:/Users/simon/Documents/GitHub/LernenC/casino/src/util.hpp
+time.h
+-
+windows.h
+-
+cstdlib
+-
+

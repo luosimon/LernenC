@@ -7,17 +7,49 @@
 #include <unistd.h>
 #include <limits.h>
 #include <iostream>
+#include <stdbool.h>
+#include "util.hpp"
 #define STR_SIZE 10000
 #define DATA_SIZE 10000
+using namespace Easy;
+/*
+int findposition(char *h, int i, bool j, char l)
+{
+	int k;
+	int y = 1;
+	if (j == true)
+	{
+		k = 1;
+	}
+	else
+	{
+		k = -1;
+	}
+	while (y == 1)
+	{
+		if (h[i + k] != l)
+		{
 
+			i = i + k;
+		}
+		else
+		{
+			y = 2;
+		}
+	}
+	return i;
+}
+*/
 int main(int argc, char *argv[])
 {
+
 	char input[10000] = "";
 	int zeile = 0;
 	int length;
 	int i = 0;
 	int atposition;
-	int aenderungposition;
+	int aenderunganfang;
+	int aenderungende;
 	char read[STR_SIZE] = {0};
 	char edit[STR_SIZE] = {0};
 	int y = 1;
@@ -46,37 +78,14 @@ int main(int argc, char *argv[])
 			exit(1);
 		}
 		zeile++;
-		while (y == 1)
-		{
-			if (buffer[i] != '@')
-			{
-				i++;
-			}
-			else
-			{
-				atposition = i;
-				y = 2;
-			}
-		}
-		y = 1;
+		i = 0;
 		buffer2 = buffer;
-		while (y == 1)
-		{
-			if (buffer[i+1] != ' ')
-			{
-
-				i++;
-			}
-			else
-			{
-				aenderungposition = i;
-				i = 0;
-				y = 2;
-			}
-		}
-		y = 1;
-		buffer2 = buffer + aenderungposition + 1;
-		snprintf(aa, sizeof(aa), "%s%i%s%s", "  300.000000    13.160000     2.700000    14.000000  8631.309570  8138.370117 1.037037e+05   114.889999     0.100000 ", zeile, "@4prak.mrcs",  buffer2);
+		atposition = findposition(buffer, (i - 1), true, '@');
+		aenderunganfang = findposition(buffer, atposition, false, ' ');
+		aenderungende = findposition(buffer, atposition, true, ' ');
+		buffer2 = buffer + aenderungende + 1;
+		buffer[aenderunganfang] = '\0';
+		snprintf(aa, sizeof(aa), "%s%i%s%s", buffer, zeile, "@4prak.mrcs", buffer2);
 		fputs(aa, fPtr);
 	}
 

@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../lib/util.hpp
+
 C:/Users/simon/Documents/GitHub/LernenC/easypeasy/src/main.cpp
 string.h
 -
@@ -21,4 +23,8 @@ limits.h
 -
 iostream
 -
+stdbool.h
+-
+util.hpp
+C:/Users/simon/Documents/GitHub/LernenC/easypeasy/src/util.hpp
 

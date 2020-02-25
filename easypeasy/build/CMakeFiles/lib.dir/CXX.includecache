@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/simon/Documents/GitHub/LernenC/easypeasy/lib/util.cpp
+stdlib.h
+-
+stdbool.h
+-
+stdio.h
+-
+util.hpp
+C:/Users/simon/Documents/GitHub/LernenC/easypeasy/lib/util.hpp
+
+C:/Users/simon/Documents/GitHub/LernenC/easypeasy/lib/util.hpp
+

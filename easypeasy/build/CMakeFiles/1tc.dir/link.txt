@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\1tc.dir/objects.a
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe cr CMakeFiles\1tc.dir/objects.a @CMakeFiles\1tc.dir\objects1.rsp
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\1tc.dir/objects.a -Wl,--no-whole-archive  -o ..\bin\1tc.exe -Wl,--out-implib,lib1tc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1tc.dir\linklibs.rsp

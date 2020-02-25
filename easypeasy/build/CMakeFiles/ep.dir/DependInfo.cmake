@@ -10,10 +10,12 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../lib"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build/CMakeFiles/lib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

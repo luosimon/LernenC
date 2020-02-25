@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\dhello.dir/objects.a
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe cr CMakeFiles\dhello.dir/objects.a @CMakeFiles\dhello.dir\objects1.rsp
+C:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\i686-w64-mingw32-g++.exe -g   -Wl,--whole-archive CMakeFiles\dhello.dir/objects.a -Wl,--no-whole-archive  -o dhello.exe -Wl,--out-implib,libdhello.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\dhello.dir\linklibs.rsp

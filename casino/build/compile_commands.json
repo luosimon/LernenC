@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/simon/Documents/GitHub/LernenC/casino/build",
+  "command": "C:\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe    -g   -o CMakeFiles\\lib.dir\\lib\\util.cpp.obj -c C:\\Users\\simon\\Documents\\GitHub\\LernenC\\casino\\lib\\util.cpp",
+  "file": "C:/Users/simon/Documents/GitHub/LernenC/casino/lib/util.cpp"
+},
+{
+  "directory": "C:/Users/simon/Documents/GitHub/LernenC/casino/build",
+  "command": "C:\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe   @CMakeFiles/cas.dir/includes_CXX.rsp -g   -o CMakeFiles\\cas.dir\\src\\main.cpp.obj -c C:\\Users\\simon\\Documents\\GitHub\\LernenC\\casino\\src\\main.cpp",
+  "file": "C:/Users/simon/Documents/GitHub/LernenC/casino/src/main.cpp"
+}
+]

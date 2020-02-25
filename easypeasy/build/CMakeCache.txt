@@ -115,7 +115,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/notsoeasy
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/easypeasy
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/ld.exe
@@ -159,7 +159,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=notsoeasy
+CMAKE_PROJECT_NAME:STATIC=easypeasy
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1.0
@@ -333,10 +333,10 @@ SLURM_SRUN_COMMAND:FILEPATH=SLURM_SRUN_COMMAND-NOTFOUND
 SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
 
 //Value Computed by CMake
-notsoeasy_BINARY_DIR:STATIC=C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build
+easypeasy_BINARY_DIR:STATIC=C:/Users/simon/Documents/GitHub/LernenC/easypeasy/build
 
 //Value Computed by CMake
-notsoeasy_SOURCE_DIR:STATIC=C:/Users/simon/Documents/GitHub/LernenC/easypeasy
+easypeasy_SOURCE_DIR:STATIC=C:/Users/simon/Documents/GitHub/LernenC/easypeasy
 
 
 ########################
